@@ -4,69 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>moori</title>
-    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Dosis:wght@200..800&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <!-- moori portfolio -->
-
-    <header>
-        <ul>
+    <!-- 導航列 -->
+    <nav>
+        <ul class="navbar">
             <li><a href="#">Home</a></li>
             <li><a href="#">Blog</a></li>
-        </ul>  
-         <div class="banner">
-            <h1>moori</h1>
-            <p>插畫設計／平面設計</p>
-            <p class="intro">我是 moori，喜歡畫畫。</p>
-            <p class="intro">
-                擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！
-            </p>
-    </header>
-   
-    <div class="wrap">
-        <ul>
-            <li><img src="" alt="">。</img></li>
-            <li><img src="" alt="">。</img></li>
-            <li><img src="" alt="">。</img></li>
-            <li><img src="" alt="">。</img></li>
-            <li><img src="" alt="">。</img></li>
         </ul>
+    </nav>
+
+    <!-- 主要內容 -->
+    <header>
+        <div class="banner">
+            <div class="banner-photo">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true" alt="photo of Alyse Wang">    
+            </div>
+            <div class="banner-name">
+                <h1>Alyse Wang</h1>
+                <p>前端工程師 & 職涯諮詢師</p>
+            </div>
+            <div class="banner-intro">
+                <div class="intro-left"></div>
+                <div class="intro-p">
+                    <p>嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
+                    <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
+                    <ul>
+                        <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon.png?raw=true" alt="youtube"></a></li>
+                        <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-1.png?raw=true" alt="podcast"></a></li>
+                        <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-2.png?raw=true" alt="facebook"></a></li>
+                        <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/icons8-linkedin.png?raw=true" alt="linkedin"></a></li>
+                        <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-3.png?raw=true" alt="instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-            
-        <div class="content01">
+    </header>
+
+    <div class="container">
+        <div class="service">
             <h2>專業服務與方案</h2>
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                        <h3>插畫創作</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus quasi, pariatur rem itaque corrupti, maiores repellat hic totam inventore aspernatur voluptatibus ut accusantium veritatis perferendis et porro consequatur enim.</p>
+            <ul>
+                <li>
+                    <img class="img-L" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo.png?raw=true" alt="">
+                    <div class="content-R">
+                        <div class="deco"></div>
+                        <h3>履歷健檢</h3>
+                        <p>履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
+                    </div>
+                </li>
+                <li class="style01">
+                        <div class="content-L">
+                            <div class="deco"></div>
+                            <h3>線上諮詢</h3>
+                            <p>履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
+                        </div>
+                        <img class="img-R" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo2.png?raw=true" alt="">
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <h3>平面設計</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus quasi, pariatur rem itaque corrupti, maiores repellat hic totam inventore aspernatur voluptatibus ut accusantium veritatis perferendis et porro consequatur enim.</p>
+                        <img class="img-L" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo3.png?raw=true" alt="">
+                        <div class="content-R">
+                            <div class="deco"></div>
+                            <h3>網頁開發</h3>
+                            <p>想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>社群圖文</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus quasi, pariatur rem itaque corrupti, maiores repellat hic totam inventore aspernatur voluptatibus ut accusantium veritatis perferendis et porro consequatur enim.</p>
+                    <li class="style01">
+                        <div class="content-L">
+                            <div class="deco"></div>
+                            <h3>企業內訓</h3>
+                            <p>想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
+                        </div>
+                        <img class="img-R" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo4.png?raw=true" alt="">
                     </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>藝術課程</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus quasi, pariatur rem itaque corrupti, maiores repellat hic totam inventore aspernatur voluptatibus ut accusantium veritatis perferendis et porro consequatur enim.</p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>異業合作</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus quasi, pariatur rem itaque corrupti, maiores repellat hic totam inventore aspernatur voluptatibus ut accusantium veritatis perferendis et porro consequatur enim.</p>
-                    </li>
-                </ul>
-                <div class="button">點我了解更多</div>
+            </ul>
+            <a class="service-btn" href="#">
+                <h3>點我了解更多</h3>
+                <img src="https://hex2025.worksbyaaron.com/icon/contact-me.webp" alt="點我了解更多">
+            </a>
         </div>
 
-        <div class="content02">
+        <div class="blog">
             <h2>部落格精選</h2>
                 <ul>
                     <li><a href="#">
@@ -74,7 +99,7 @@
                         <p class="date">2024/10/11</p>
                         <a href="#" class="tag">#React</a>
                         <a href="#" class="tag">#入門基礎</a>
-                        <h2>React入門不迷惘：三步驟帶你上手核心概念</h2>
+                        <h3>React入門不迷惘：三步驟帶你上手核心概念</h3>
                         <p>你是否對React獻到好奇，卻苦惱於該如何正式啟動學習之路？身為前端工程師兼職涯諾詢師，我常遇到同學問我…</p>
                         <a class="button" href="#">閱讀內文</a>
                     </a></li>
@@ -83,7 +108,7 @@
                         <p class="date">2024/09/07</p>
                         <a href="#" class="tag">#作品集</a>
                         <a href="#" class="tag">#求職攻略</a>
-                        <h2>前端作品集打造指南：讓你的專案成為履歷亮點</h2>
+                        <h3>前端作品集打造指南：讓你的專案成為履歷亮點</h3>
                         <p>對正在求職的前端工程師而言，作品票往往是第一個「說話」的利器。當面試官瀏覽你的網頁作品時，能夠快速了…</p>
                         <a class="button" href="#">閱讀內文</a>
                     </a></li>
@@ -92,21 +117,33 @@
                         <p class="date">2024/09/03</p>
                         <a href="#" class="tag">#CSS設計</a>
                         <a href="#" class="tag">#視覺體驗</a>
-                        <h2>CSS 魔法大掲密：排版與設計的三大關鍵技巧</h2>
+                        <h3>CSS 魔法大掲密：排版與設計的三大關鍵技巧</h3>
                         <p>在瀏琵器盡面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時…</p>
                         <a class="button" href="#">閱讀內文</a>
                     </a></li>
                 </ul>
         </div>
 
-        <div class="content03">
-            <h3>異業合作案例</h3>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta eligendi tenetur, consequuntur officia aperiam amet neque facilis laboriosam blanditiis!</p>
-            <div class="reserve">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, expedita?</p>
-                <p>立即預約諮詢</p>
-                <ul>
+        <div class="case">
+            <h2>職涯諮詢成功案例</h2>
+            <div class="case-content">
+                <div class="case-img">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo8.png?raw=true" alt="Alyse Wang">
+                </div>
+                <div class="case-p">
+                    <div class="deco"></div>
+                    <p>在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效突破原有的舒適圈。</p>
+                </div>
+                <div class="case-btn">
+                    <div class="deco"></div>
+                    <p>期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
+                    <div class="reserve">
+                    <a class="reserve-btn" href="#">立即預約諮詢</a>
+                    </div>
+                </div>
+            </div>
+            
+            <ul>
                     <li>
                         <img src="" alt="">
                             <ul>
@@ -148,16 +185,68 @@
                             </ul>
                         </li>
                 </ul>
-            </div>
         </div>
-
-        <div class="content04">
-        </div>
-
     </div>
+    <div class="subscribe">
+            <div class="sub-L">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo9.png?raw=true" alt="photo of Alyse Wang">
+            </div>
+            <div class="sub-R">
+                <div class="sub-form">
+                    <h2>訂閱電子報</h2>
+                    <p>立即訂閱，搶先掌握<span style="color: #0027d5">前端×職涯</span>的獨家資訊！</p>
+                    <form action="#" method="post">
+                    <input type="name" name="name" placeholder="請輸入您的大名" required>
+                    <input type="email" name="email" placeholder="請輸入您的電子信箱" required>
+                    <button type="submit">啟動訂閱</button>
+                    </form>
+                </div>
+            </div>
+        </div>   
 
+    <!-- Footer -->
     <div class="footer">
-        moori　©　Hex School
+        <ul>
+            <h2>與我聯繫</h2>
+            <li>
+                <a href="">
+                    <p>alysewang@hexschool.com 合作洽談</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon.png?raw=true" alt="youtube icon">
+                    <p>Youtube 職涯諮詢室</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-1.png?raw=true" alt="podcast icon">
+                    <p>Podcast 職涯諮詢室</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-2.png?raw=true" alt="facebook icon">
+                    <p>Facebook 前端社群</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/icons8-linkedin.png?raw=true" alt="linkedin icon">
+                    <p>linkedin 職涯交流</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-3.png?raw=true" alt="instagram icon">
+                    <p>Instagram 日常分享</p>
+                </a>
+            </li>
+        </ul>
+        <div class="moori">
+            moori　©　Hex School
+        </div>
     </div>
 </body>
 </html>
