@@ -180,27 +180,34 @@ nav ul li a:hover{
 }
 
 @media (max-width: 768px) {
-		.banner .banner-photo {
-			width: 100%;
-			height: auto;
-		}
-		.banner .banner-name {
-			width: 100%;
-			height: auto;
-			padding-top: 20px;
-			padding-bottom: 40px;
-		}
-		.banner.banner-intro{
-			justify-content: center;
-		}
-		.banner .banner-intro .intro-left{
-			width: 0%;
-		}
-		.banner .banner-intro .intro-p{
-			width: 100%;
-			margin-top: 0;
-			font-size: 24px;
-		}
+	.banner .banner-photo {
+		width: 100%;
+		height: auto;	
+	}
+	.banner .banner-name {
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.banner.banner-intro{
+		justify-content: center;
+	}
+	.banner .banner-intro .intro-left{
+		width: 0%;
+	}
+	.banner .banner-intro .intro-p{
+		width: 100%;
+		margin-top: 0;
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 375px) {
+	.banner .banner-name {
+		padding-left: 24px;
+		letter-spacing: 0;
+	}
 }
 
 .container{
@@ -311,6 +318,10 @@ h2{
 	}
 }
 
+@media (max-width: 375px) {
+	
+}
+
 .container .blog{
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -391,6 +402,10 @@ h2{
 
 }
 
+@media (max-width: 375px) {
+	
+}
+
 .container .case-content{
 	margin-bottom: 40px;
 	position: relative;
@@ -462,6 +477,10 @@ h2{
 	}
 }
 
+@media (max-width: 375px) {
+	
+}
+
 .subscribe{
 	display: flex;
 }
@@ -472,7 +491,7 @@ h2{
 }
 
 .subscribe .sub-L img{
-	height: 100%;
+	width: 100%;
 }
 
 .subscribe .sub-R{
@@ -482,7 +501,10 @@ h2{
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	padding: 172px 80px;
+	/* padding: 172px 80px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .subscribe .sub-R .sub-form{
@@ -549,6 +571,15 @@ h2{
 	}
 }
 
+@media (max-width: 375px) {
+	.subscribe .sub-R{
+		padding: 40px 0px;
+	}
+	.subscribe .sub-R .sub-form{
+		padding: 40px;
+	}
+}
+
 .footer{
 	background: #fff;
 	padding-top: 80px;
@@ -582,7 +613,23 @@ h2{
 
 @media (max-width: 768px) {
 	.footer ul{
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 375px) {
+	.footer ul{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 20px;
+	}
+	.footer ul li a{
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.footer .moori{
+		font-size: 20px;
 	}
 }
